@@ -27,5 +27,5 @@ package wc51;
  The size of the input 2D-array will be between 1 and 1000.
  Every integer represented in the 2D-array will be between 1 and 2000.
  */
-public class RedundantConnection {
+public class _684RedundantConnection {
 }

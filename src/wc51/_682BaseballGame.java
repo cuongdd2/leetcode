@@ -33,7 +33,7 @@ import java.util.Stack;
  The size of the input list will be between 1 and 1000.
  Every integer represented in the list will be between -30000 and 30000.
  * */
-public class BaseballGame {
+public class _682BaseballGame {
 
     public static void main(String[] args) {
         String[] list = {"5", "7", "-2", "D", "5","-2","4","C", "C", "C","D","9","+","+"};// should be 18

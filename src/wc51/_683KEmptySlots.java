@@ -23,7 +23,7 @@ package wc51;
  Note:
  The given array will be in the range [1, 20000].
  * */
-public class KEmptySlots {
+public class _683KEmptySlots {
     public static void main(String[] args) {
         int[] flowers = {6,5,8,9,7,1,10,2,3,4};// expected: 8
         int k = 2;

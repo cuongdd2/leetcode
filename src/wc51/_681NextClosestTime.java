@@ -16,7 +16,7 @@ import java.util.List;
  It may be assumed that the returned time is next day's time since it is smaller than the input time numerically.
  *
  * */
-public class NextClosestTime {
+public class _681NextClosestTime {
     public static String nextClosestTime(String time) {
         String[] arr = time.split(":");
         int hour = Integer.parseInt(arr[0]);
