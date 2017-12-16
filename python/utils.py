@@ -16,7 +16,12 @@ def init(n, rnd=False):
 
 
 def printList(head):
+    N = []
     while head:
+        if head in N:
+            print("(%d)" % head.val)
+            return
         print(head.val, end="--")
+        N.append(head)
         head = head.next
     print("NULL")
