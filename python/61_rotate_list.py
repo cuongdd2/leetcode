@@ -1,7 +1,4 @@
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
+from utils import *
 
 
 def rotateRight(head, k):
@@ -24,18 +21,8 @@ def rotateRight(head, k):
     return head
 
 
-def printList(head):
-    while head:
-        print(head.val, end="--")
-        head = head.next
-    print("NULL")
-
-
 def test():
-    head = node = ListNode(0)
-    for i in range(1, 5):
-        node.next = ListNode(i)
-        node = node.next
+    head = init(5)
     printList(head)
     head = rotateRight(head, 2)
     printList(head)
