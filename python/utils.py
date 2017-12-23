@@ -4,6 +4,14 @@ class ListNode:
         self.next = None
 
 
+def fromStr(s):
+    head = node = ListNode("")
+    for c in s:
+        node.next = ListNode(c)
+        node = node.next
+    return head.next
+
+
 def init(n, rnd=False):
     import random
     head = node = ListNode(0)
