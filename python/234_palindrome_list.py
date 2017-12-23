@@ -3,6 +3,8 @@ def isPalindrome(head):
     :type head: ListNode
     :rtype: bool
     """
+    if not head:
+        return True
 
     slow = fast = head
     while fast and fast.next and fast.next.next:
@@ -25,7 +27,7 @@ def isPalindrome(head):
 
 from utils import *
 
-head = fromStr("abccba")
+head = fromStr("")
 printList(head)
 s = isPalindrome(head)
 print(s)
